@@ -20,33 +20,18 @@ Este proyecto tiene como objetivo recopilar datos de jugadores universitarios y 
 Como segundo objetivo he realizado una modelo predictivo en base a estos datos el cual nos puede ayudar a predecir si un jugador llegará o no a la nba en base a sus estadísticas universitarias.
 A su vez,sacaremos patrones como por ejemplo el porcentaje de jugadores universitarios que optan a ir a la NBA, el equipo que más jugadores ha brindado a la misma y muchos otros datos interesantes.""")
 
+st.write("Antes de nada,vamos a explicar brevemente en qué consisten y qué son estas ligas")
+
+st.image("images/NCAA_logotipo.jpg")
+st.write("La NCAA Men's Basketball es una competición de baloncesto universitario en los Estados Unidos, organizada por la Asociación Nacional de Atletismo Universitario (NCAA). Es un campeonato anual que incluye equipos de universidades y colegios de todo el país. La NCAA Men's Basketball es conocida por su popularidad, emocionantes partidos y el desarrollo de futuros jugadores de baloncesto profesionales. Es una liga universitaria altamente competitiva y seguida por fanáticos del baloncesto en todo el país.")
+
+st.image("images/logotipo.png")
+st.write("La NBA (National Basketball Association) es la principal liga de baloncesto profesional de Estados Unidos y una de las más importantes a nivel mundial. Es una liga compuesta por equipos profesionales ubicados en ciudades de Estados Unidos y Canadá. La NBA es conocida por su alta competitividad, con jugadores de élite a nivel mundial, emocionantes partidos y una gran base de seguidores en todo el mundo. Es considerada la liga más prestigiosa y popular del baloncesto profesional, y cuenta con una rica historia y tradición en la cultura del deporte.")
 
 
-df = pd.read_csv("notebooks/PREDICCIÓN.csv")
-nba_count = df[df['NBA'] == 'Sí'].shape[0]
-no_nba_count = df[df['NBA'] == 'No'].shape[0]
-df2 = pd.read_csv('data/PREDICCIÓN.csv')
-# HISTORGRAMA 1
-plt.figure(figsize=(4,4))
-sns.histplot(df2.PPG, facecolor='darkorange', edgecolor='black', bins=30, color='black', kde=True)
-plt.title('Distribución de PPG', fontsize=10)
-st.pyplot()
 
 
-st.write('''cómo podemos observar las posibilidades de acceder a la NBA son bastante
-         limitadas, podemos observar que , en los últimos 21 años,de más de 30 000 jugadores, 
-         sólo alrededor de 1000 han conseguido llegar a la meta de jugar en la NBA, veámoslo más
-         cómodamente con porcentaje''')
 
-
-'''# PIE CHART
-figsize=(3, 3))
-labels = ['Sí', 'No']
-sizes = [nba_count, no_nba_count]
-colors = ['#FFC154', '#3D3D3D']
-ax1.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
-ax1.set_title('Jugadores que llegan a la NBA', fontsize=9)
-st.pyplot(fig1) ''' 
 
 
 
