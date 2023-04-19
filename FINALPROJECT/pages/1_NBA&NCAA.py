@@ -19,6 +19,6 @@ st.image("images/SUBPLOT_PTS.png")
 st.write('''Aquí podemos comprobar como la media de puntos de un jugador universitario en comparación  aun jugador de la nba tiene diferencia
 a priori no parece una diferencia muy significativa, pero tenemos que teneer en cuenta dos factores, esto es una MEDIA , y lso jugadores de la NCAA juegan
 alrededor de 30 partidos por temporada, mientras que los jugadores de la NBA juegan un minimo de 82 partidos por temporada, por lo que es mucho más dificil mantener una buena media.''')
-st.image("images/subplot_importancia.png")
+st.image("images/violin.png")
 
 st.write("En éste gráfico podemos observar perfectamente la relación entre las diferentes características que hacen que un jugador destaque o no,como para así poder llegar a la NBA, hablemos un poco de ellas")
