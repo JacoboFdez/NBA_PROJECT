@@ -48,6 +48,10 @@ PF = st.number_input('PF')
 if st.button('Hacer predicción'):
     resultado = hacer_prediccion(GP, MPG, PPG, FG, TP, FT, ORB, DRB, RPG, APG, SPG, BPG, TOV, PF)
     if resultado == 1:
+        imagen_gif = 'images/YES.gif'
+        st.image(imagen_gif, use_column_width=False)
         st.write('Con un 97% de acierto,el jugador de características citadas entrará a la NBA.')
     else:
+        imagen_gif = 'images/NO.gif'
+        st.image(imagen_gif, use_column_width=False)
         st.write('Con un 97% de acierto,el jugador de características citadas NO entrará a la NBA.')
