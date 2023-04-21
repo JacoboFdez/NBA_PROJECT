@@ -32,10 +32,14 @@ El output final lo tenéis disponible, el cual es un streamlit que se dividirá 
 
 
 Herramientas utilizadas para llevar a cabo este proyecto han sido: 
-·Por supuesto todo esto se ha realizado con código Python
-·Librerías utlizadas: 
-    ·
-    ·
-    ·
-    ·
-    ·
+# Bibliotecas Utilizadas
+
+A continuación se enumeran las bibliotecas utilizadas en este proyecto:
+
+- [seaborn](https://seaborn.pydata.org/): Biblioteca para visualización estadística basada en matplotlib.
+- [matplotlib](https://matplotlib.org/stable/index.html): Biblioteca para visualización de gráficos en Python.
+- [pandas](https://pandas.pydata.org/): Biblioteca para manipulación y análisis de datos en Python.
+- [numpy](https://numpy.org/): Biblioteca para cálculos numéricos en Python.
+- [streamlit](https://streamlit.io/): Biblioteca para crear aplicaciones web interactivas en Python.
+- [selenium](https://www.selenium.dev/): Biblioteca para automatización de pruebas en aplicaciones web.
+- [scikit-learn](https://scikit-learn.org/stable/): Biblioteca para aprendizaje automático en Python.
