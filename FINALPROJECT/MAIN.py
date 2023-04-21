@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(
         page_title="NBA HUNTERS",
         page_icon="🤯",
-        layout="wide"
+        layout="centered"
     )
 
 st.sidebar.success("Select a page above.")

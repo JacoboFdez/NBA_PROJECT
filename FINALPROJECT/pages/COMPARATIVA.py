@@ -37,7 +37,7 @@ def comp(df, player1, player2):
     
     set_custom_style()
 
-    fig = plt.figure(figsize=(10,10))
+    fig = plt.figure(figsize=(8,6))
     plt.polar(angulos, PLAY1, 'o-', label = f"{player1}")
     plt.polar(angulos, PLAY2, 'o-', label = f"{player2}")
     lines, labels = plt.thetagrids(np.degrees(angulos), labels=categorias)
